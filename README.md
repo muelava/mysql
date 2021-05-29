@@ -25,6 +25,5 @@ ALTER TABLE nama_tabel RENAME nama_tabel_baru
 ---------- PERINTAH DATABASE -----------
 
 7. Perintah Membuat Index pada sebuah table:
-CREATE INDEX nama_table ON nama_table(nama_kolom);
-atau
-CREATE INDEX nama_table ON nama_table(nama_kolom1, nama_kolom2) USING BTREE;
+CREATE INDEX nama_table ON nama_table(nama_kolom); <br>
+atau <br> CREATE INDEX nama_table ON nama_table(nama_kolom1, nama_kolom2) USING BTREE;
