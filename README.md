@@ -18,7 +18,7 @@ ALTER TABLE nama_tabel ADD PRIMARY KEY (nama_kolom);
 ALTER TABLE nama_tabel DROP PRIMARY KEY;
 
 6. Mengubah nama sebuah table :
-ALTER TABLE nama_tabel RENAME nama_tabel_baru
+ALTER TABLE nama_tabel RENAME nama_tabel_baru;
 
 
 
