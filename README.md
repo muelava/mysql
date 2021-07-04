@@ -20,6 +20,9 @@ ALTER TABLE nama_tabel DROP PRIMARY KEY;
 6. Mengubah nama sebuah table :
 ALTER TABLE nama_tabel RENAME nama_tabel_baru;
 
+7. Menambah kolom baru setelah kolom lain :
+ALTER TABLE nama_tabel ADD COLUMN nama_kolom_baru typedata() AFTER nama_kolom_lain; 
+
 
 
 ---------- PERINTAH DATABASE -----------
