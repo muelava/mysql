@@ -33,4 +33,4 @@ atau <br> CREATE INDEX nama_table ON nama_table(nama_kolom1, nama_kolom2) USING 
 
 8. Menampilkan jumlah data (COUNT) dengan kondisi tertentu : <br>
 
-SELECT COUNT(*) FROM nama_table WHERE nama_kolom='kondisi';
+SELECT COUNT(*) AS sebagai FROM nama_table WHERE nama_kolom='kondisi';
