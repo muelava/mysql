@@ -34,3 +34,10 @@ atau <br> CREATE INDEX nama_table ON nama_table(nama_kolom1, nama_kolom2) USING 
 8. Menampilkan jumlah data (COUNT) dengan kondisi tertentu : <br>
 
 SELECT COUNT(*) AS sebagai FROM nama_table WHERE nama_kolom='kondisi';
+
+9. Perintah JOIN, menggabungkan dua tabel :<br>
+SELECT nama_kolom1, nama_kolom2 FROM nama_tabel1 JOIN nama_tabel2 USING(nama_kolom);<br>
+
+10. Perintah JOIN, menggabungkan dua tabel dengan kondisi (cocok untuk komentar) :<br>
+SELECT nama_kolom1, nama_kolom2 from nama_tabel1 JOIN nama_tabel2 USING (nama_kolom) WHERE nama_kolom='kondisi';
+
