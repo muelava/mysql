@@ -14,14 +14,17 @@ ALTER TABLE nama_tabel CHANGE nama_kolom_lama nama_kolom_baru typedata();<br>
 4. Menambah primary key :<br>
 ALTER TABLE nama_tabel ADD PRIMARY KEY (nama_kolom);<br>
 
-5.Menghapus primary key :<br>
+5. Menghapus primary key :<br>
 ALTER TABLE nama_tabel DROP PRIMARY KEY;<br>
 
 6. Mengubah nama sebuah table :<br>
 ALTER TABLE nama_tabel RENAME nama_tabel_baru;<br>
 
 7. Menambah kolom baru setelah kolom lain :<br>
-ALTER TABLE nama_tabel ADD COLUMN nama_kolom_baru typedata() AFTER nama_kolom_lain; <br><br>
+ALTER TABLE nama_tabel ADD COLUMN nama_kolom_baru typedata() AFTER nama_kolom_lain; <br>
+
+
+<br><br><br>
 
 
 
