@@ -47,7 +47,7 @@ SELECT nama_kolom1, nama_kolom2 from nama_tabel1 JOIN nama_tabel2 USING (nama_ko
 SELECT nama_kolom_tampil1, nama_kolom_tampil2,dst FROM nama_table1 JOIN nama_table2 USING(kondisi) JOIN nama_table3 USING(kondisi);<br>
 
 6. Perintah JOIN, menggabungkan table apabila nama kolom yang sama : <br>
-SELECT nama_kolom1, nama_tabel1.nama_kolom2 FROM nama_table1 JOIN nama_table2 USING(kondisi);<br> 
+SELECT nama_kolom1, nama_tabel1.nama_kolom_yang_sama FROM nama_table1 JOIN nama_table2 USING(kondisi);<br> 
 
 7. Perintah LIKE menampilkan 2 kondisi dengan gabungan AND dan OR : <br>
 SELECT * FROM nama_table WHERE (nama_kolom1='kondisi') AND (nama_kolom2 LIKE = '%kondisi%' OR nama_kolom3 LIKE = '%kondisi%');<br>
