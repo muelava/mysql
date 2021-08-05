@@ -56,4 +56,4 @@ SELECT * FROM nama_table WHERE (nama_kolom1='kondisi') AND (nama_kolom2 LIKE = '
 BEGIN; INSERT INTO tabel1 (tabel1kolom1_AI, tabel1kolom2) VALUES('', 'tabel1kolom2'); INSERT INTO tabel2 (tabel2kolom1, tabel2kolom2) VALUES(LAST_INSERT_ID(),'tabel2kolom2'); COMMIT;<br>
 
 9. Perintah ALTER TABLE reset nilai auto_increment pada sebuah tabel: <br>
-ALTER TABLE nama_tabel AUTO_INCREMENT = 1 <br>
+ALTER TABLE nama_tabel AUTO_INCREMENT = 1;<br>
