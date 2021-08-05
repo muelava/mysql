@@ -52,5 +52,8 @@ SELECT nama_kolom1, nama_tabel1.nama_kolom_yang_sama FROM nama_table1 JOIN nama_
 7. Perintah LIKE menampilkan 2 kondisi dengan gabungan AND dan OR : <br>
 SELECT * FROM nama_table WHERE (nama_kolom1='kondisi') AND (nama_kolom2 LIKE = '%kondisi%' OR nama_kolom3 LIKE = '%kondisi%');<br>
 
-8. Perintah memasukan data (INSERT INTO) ke dua tabel foreign key dengan mengambil auto_increment: <br>
+8. Perintah INSERT memasukan data pada dua tabel foreign key bernilai auto_increment dengan LAST_INSERT_ID(): <br>
 BEGIN; INSERT INTO tabel1 (tabel1kolom1_AI, tabel1kolom2) VALUES('', 'tabel1kolom2'); INSERT INTO tabel2 (tabel2kolom1, tabel2kolom2) VALUES(LAST_INSERT_ID(),'tabel2kolom2'); COMMIT;<br>
+
+9. Perintah ALTER TABLE reset nilai auto_increment pada sebuah tabel: <br>
+ALTER TABLE nama_tabel AUTO_INCREMENT = 1 <br>
